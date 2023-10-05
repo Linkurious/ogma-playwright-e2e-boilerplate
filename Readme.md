@@ -1,6 +1,6 @@
 # Ogma + Playwright testing boilerplate
 
-<img src="img/ogma-logo.svg" height="60" alt="Ogma logo" /><img src="img/playwright-logo.svg" height="60" alt="Playwright logo" />
+<img src="img/ogma-logo.svg" height="60" alt="Ogma logo" /> + <img src="img/playwright-logo.svg" height="60" alt="Playwright logo" />
 
 ## About
 
