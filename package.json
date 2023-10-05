@@ -1,0 +1,21 @@
+{
+  "name": "ogma-playwright",
+  "version": "1.0.0",
+  "description": "Boilerplate to run e2e tests with Playwright and Ogma",
+  "scripts": {
+    "test": "npx playwright test",
+    "start": "vite examples",
+    "test:ui": "playwright test --ui"
+  },
+  "author": "Linkurious SAS",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@linkurious/ogma": "^4.5.4-develop.106"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.2",
+    "npm-run-all": "^4.1.5",
+    "vite": "^4.4.11"
+  }
+}
