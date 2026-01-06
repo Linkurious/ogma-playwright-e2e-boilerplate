@@ -1,4 +1,4 @@
-import Ogma from "@linkurious/ogma";
+import { Ogma } from "@linkurious/ogma";
 
 const ogma = new Ogma({
   container: "container",
@@ -17,4 +17,4 @@ ogma
   .then(() => ogma.layouts.force({ locate: true }))
   .then(() => console.log("done"));
 
-window["ogma"] = ogma;
+Object.assign(window, { ogma });

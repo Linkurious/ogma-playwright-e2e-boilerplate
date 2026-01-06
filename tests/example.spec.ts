@@ -1,4 +1,11 @@
+import Ogma from "@linkurious/ogma";
 import { test, expect } from "@playwright/test";
+
+declare global {
+  interface Window {
+    ogma: Ogma;
+  }
+}
 
 test.describe("Ogma e2e tests", () => {
   test("Graph is loaded, layouted and centered", async ({ page }) => {
