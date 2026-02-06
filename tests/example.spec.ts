@@ -1,4 +1,4 @@
-import Ogma from "@linkurious/ogma";
+import { Ogma } from "@linkurious/ogma";
 import { test, expect } from "@playwright/test";
 
 declare global {
@@ -19,7 +19,7 @@ test.describe("Ogma e2e tests", () => {
     await new Promise<void>((resolve) =>
       page.on("console", (m) => {
         if (m.text() === "done") resolve();
-      })
+      }),
     );
     // read values from the exposed ogma instance
     const { view, bounds } = await page.evaluate(() => {
@@ -45,7 +45,7 @@ test.describe("Ogma e2e tests", () => {
     await new Promise<void>((resolve) =>
       page.on("console", (m) => {
         if (m.text() === "done") resolve();
-      })
+      }),
     );
 
     // check node position before click
