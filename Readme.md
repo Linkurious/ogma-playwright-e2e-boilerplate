@@ -4,7 +4,7 @@
 
 ## About
 
-This is a boilerplate for testing web applications using [Ogma](https://ogma.linkurio.us) and [Playwright](https://playwright.dev/). It will show you how to use Ogma to create a graph and how to use Playwright to test and interact with your visualisation. It includes tests written in TypeScript, test for a simple click on a node and camera positioning.
+This is a boilerplate for testing web applications using [Ogma](https://ogma.linkurio.us) and [Playwright](https://playwright.dev/). It will show you how to use Ogma to create a graph and how to use Playwright to test and interact with your visualisation. It includes tests written in TypeScript, a test for a simple click on a node and camera positioning, and a test for screenshot testing with external webfont icons (Lucide).
 
 ## How to use
 

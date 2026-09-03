@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ogma Example 1 - Lucide Icons</title>
+    <!-- Lucide icon webfont, loaded the same way Ogma's own examples do it -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/lucide-static@0.483.0/font/lucide.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <!-- Hidden placeholder: forces the browser to request the Lucide icon font
+         early, and lets us read each icon's glyph codepoint via ::before content. -->
+    <span class="icon-camera" id="icon-placeholder"></span>
+
+    <script type="module" src="index.ts"></script>
+  </body>
+</html>
