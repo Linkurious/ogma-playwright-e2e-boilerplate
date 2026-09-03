@@ -10,7 +10,7 @@
   "author": "Linkurious SAS",
   "license": "Apache-2.0",
   "dependencies": {
-    "@linkurious/ogma": ">=5.3.8"
+    "@linkurious/ogma": "^6.0.6"
   },
   "devDependencies": {
     "@playwright/test": "^1.38.1",
