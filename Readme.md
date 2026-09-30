@@ -8,6 +8,8 @@ This is a boilerplate for testing web applications using [Ogma](https://ogma.lin
 
 ## How to use
 
+Requires Node.js 24 and npm 11.
+
 ### Installation
 
 ```bash
